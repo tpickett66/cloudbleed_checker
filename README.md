@@ -2,7 +2,9 @@
 
 A utility to check your browser history for any sites hosted by Cloudflare,
 this will give you an easy way to determine where you need to change your
-password.
+password. It currently only checks Chrome, Firefox and Safari on macOS since
+that's what I used to develop it, adding support for linux et. al. should only
+require knowing which paths to look in for the history databases.
 
 ## Installation
 
@@ -24,5 +26,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Tyler Pickett/cloudbleed_checker.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tpickett66/cloudbleed_checker.
 

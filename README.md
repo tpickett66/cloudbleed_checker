@@ -1,28 +1,20 @@
 # CloudbleedChecker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cloudbleed_checker`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A utility to check your browser history for any sites hosted by Cloudflare,
+this will give you an easy way to determine where you need to change your
+password.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'cloudbleed_checker'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cloudbleed_checker
+    `$ gem install cloudbleed_checker`
 
 ## Usage
 
-TODO: Write usage instructions here
+`cloudbleed check`
+
+The output from that command will include a bit of diagnostic info and a list
+of sites you've visited since the security vulnerabilities were introduced
+and are fronted by Cloudflare.
 
 ## Development
 
